@@ -11,7 +11,7 @@ export default defineConfig({
         vue(),
         tailwindcss(),
         federation({
-            name: 'my-host-app',
+            name: 'my-remote-app',
             filename: 'remoteEntry.js',
             exposes: {
                 './CarouselApp': './src/App.vue',

@@ -14,14 +14,14 @@ export default defineConfig({
 				"./CarouselApp": "./src/CarouselApp.vue",
 			},
 
-			shared: ["vue", "tailwindcss"],
+			shared: ["vue"],
 		}),
 	],
 	build: {
 		target: "esnext",
 		minify: false,
-		// cssCodeSplit: false,
-		// cssMinify: false,
-		outDir: "dist",
+		cssCodeSplit: true,
+		cssMinify: true,
+		// outDir: "dist",
 	},
 })

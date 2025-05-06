@@ -21,7 +21,7 @@ export default defineConfig({
 		target: "esnext",
 		minify: false,
 		cssCodeSplit: true,
-		cssMinify: true,
-		// outDir: "dist",
+		cssMinify: false,
+		outDir: "dist",
 	},
 })

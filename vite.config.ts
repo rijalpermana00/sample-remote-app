@@ -22,5 +22,6 @@ export default defineConfig({
         "minify": false,
         "cssCodeSplit": false,
         "cssMinify": false,
+        "outDir": "dist",
     },
 })

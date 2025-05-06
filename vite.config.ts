@@ -14,7 +14,7 @@ export default defineConfig({
                 './CarouselApp': './src/CarouselApp.vue',
             },
             
-            shared: ['vue']
+            shared: ['vue', 'tailwindcss']
         })
     ],
     build:{

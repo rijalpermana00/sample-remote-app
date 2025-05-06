@@ -14,7 +14,7 @@ export default defineConfig({
             name: 'my-remote-app',
             filename: 'remoteEntry.js',
             exposes: {
-                '/CarouselApp': './src/App',
+                './CarouselApp': './src/CarouselApp.vue',
             },
             shared: ['vue']
         })
